@@ -67,6 +67,9 @@ class Round(DoubleLinkedList):
             pass_sword(self)
             # self.print(lead = self.curr) # Uncomment for better debugging
 if __name__ == '__main__':
-   inp = input ("Enter size of swodsmen circle: ") #tested using number 100 dont try putting other values like 'gaandu'
-   swordsmen_circle = Round(inp)
-   swordsmen_circle.SolveRound()
+   try:
+      inp = input ("Enter size of swodsmen circle: ") #tested using number 100 dont try putting other values like 'gaandu'
+      swordsmen_circle = Round(inp)
+      swordsmen_circle.SolveRound()
+   except:
+      print("You were supposed to type integer")
