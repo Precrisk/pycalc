@@ -31,7 +31,7 @@ class DoubleLinkedList():
         self.head.prev = newnode
         newnode.next = self.head
         del oldnode
-    def print(self, lead): # Function kept here because it makes the program easier to debug
+    def prints(self, lead): # Function kept here because it makes the program easier to debug
         '''
         prints the data in the circular loop once
         '''
@@ -67,6 +67,6 @@ class Round(DoubleLinkedList):
             pass_sword(self)
             # self.print(lead = self.curr) # Uncomment for better debugging
 if __name__ == '__main__':
-   inp = input ("Enter size of swodsmen circle") #tested using number 100 dont try putting other values like 'gaandu'
+   inp = input ("Enter size of swodsmen circle: ") #tested using number 100 dont try putting other values like 'gaandu'
    swordsmen_circle = Round(inp)
-   swordmens_circle.SolveRound()
+   swordsmen_circle.SolveRound()
