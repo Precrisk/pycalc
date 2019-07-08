@@ -70,4 +70,3 @@ if __name__ == '__main__':
    inp = input ("Enter size of swodsmen circle") #tested using number 100 dont try putting other values like 'gaandu'
    swordsmen_circle = Round(inp)
    swordmens_circle.SolveRound()
-   swordsmen_circle.print()
