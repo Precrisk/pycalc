@@ -1,7 +1,6 @@
 # pycalc
-A calculator made in python
 
-Successfully checks and converts given equation to reverse polish notation.
+Just some coding in python I did to understand programming concepts.
 
-and some other programs.
-eight.py is a puzzle solver and a class that cointains doubly linked list.
+Some code contributed by @vedpatil611 
+
