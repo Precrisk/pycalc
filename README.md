@@ -1,4 +1,4 @@
-# pycalc
+# python-practice
 
 Just some coding in python I did to understand programming concepts.
 
